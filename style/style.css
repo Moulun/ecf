@@ -6,7 +6,7 @@
 
 .fond_navbar {
   background-color: rgba(0, 0, 0, 0.89);
-  height: 100px;
+  width: 100%;
 }
 
 .btn {
@@ -148,10 +148,26 @@
   background-color: #bfbfbf;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  height: 100px;
+  
   width: 700px;
 }
 
+
+.card-containeradmin{
+margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+  padding: 20px;
+  background-color: #bfbfbf;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+  width: 700px;
+}
 .card:hover {
   transform: scale(
     1.1
@@ -195,9 +211,13 @@
   height: 300px;
 }
 
+
+
+
+
 .index {
   display: flex;
-  justify-content: center;
+  
   background: linear-gradient(
     217deg,
     rgb(0, 0, 0),
@@ -207,7 +227,7 @@
 
 .baki {
   margin: 20px;
-  height: 300px;
+  width: 31%;
 }
 
 .ares {
@@ -261,14 +281,9 @@ h1{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.fond_index{
- 
- 
-}
 
-.img_photo{
-  height: 600px;
-}
+
+
 
 
 .video_1{
@@ -285,4 +300,16 @@ h1{
   rgba(0, 0, 0, 0.212) 100.71%
 ); 
   height: 70px;
+}
+
+@media screen and (max-width: 800px) {
+  .index {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.admin{
+  margin-bottom: 30px;
 }
